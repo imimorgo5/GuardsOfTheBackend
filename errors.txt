@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 112: end of line expected.
+    show student_1_smile: xalign 0.5
+                          ^
+
+Ren'Py Version: Ren'Py 8.1.3.23091805
+Mon Nov 27 15:04:26 2023
