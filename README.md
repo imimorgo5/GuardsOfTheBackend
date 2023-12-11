@@ -1,6 +1,6 @@
 # Код спасения
 
-[Последняя версия](https://drive.google.com/drive/folders/1VrgC1qCwDZWuYyb2hsTJzzFFraBUfoKs?usp=sharing)
+[Последняя версия](https://drive.google.com/drive/folders/1W_lxDxiiKlsmUqK5A6kBqGN-dUPTINUU?usp=sharing)
 
 __Визуальная новелла__
 

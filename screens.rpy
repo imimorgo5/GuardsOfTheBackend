@@ -15,6 +15,7 @@ style default:
 
 style input:
     properties gui.text_properties("input", accent=True)
+    color "#1c86b3"
     adjust_spacing False
 
 style hyperlink_text:
@@ -1262,7 +1263,7 @@ screen notify(message):
     style_prefix "notify"
 
     frame at notify_appear:
-        text "[message!tq]"
+        text "{size=40}{color=#000000}[message!tq]"
 
     timer 3.25 action Hide('notify')
 
