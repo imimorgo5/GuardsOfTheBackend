@@ -14,7 +14,7 @@ _Анастасия_ - начальница фотомастерской.
 
 [Доска на GitHub](https://github.com/users/sam7ra1/projects/4/views/1)
 
-[Презентация]([https://drive.google.com/drive/folders/1rKxhelWcf4DMQVmL2ltCF_b2pvJMphzS?usp=drive_link])
+[Презентация](https://drive.google.com/drive/folders/1rKxhelWcf4DMQVmL2ltCF_b2pvJMphzS?usp=drive_link)
 
 [Аналитика](https://drive.google.com/drive/folders/1GlggmEH_au1z_ibJWnjOS4-Y4tFX4lFj)
 
