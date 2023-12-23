@@ -1,6 +1,7 @@
-# Код спасения
+# Визуальная новелла "Код спасения"
+# Команда "Стражи Бекэнда"
 
-[Последняя версия](https://drive.google.com/drive/folders/1W_lxDxiiKlsmUqK5A6kBqGN-dUPTINUU?usp=sharing)
+[Финальная версия](https://drive.google.com/drive/folders/1RZ9nZnqpiUGMc3PtMx7d6bmnPWXGyv4W?usp=sharing)
 
 __Визуальная новелла__
 
@@ -14,7 +15,9 @@ _Анастасия_ - начальница фотомастерской.
 
 [Доска на GitHub](https://github.com/users/sam7ra1/projects/4/views/1)
 
-[Презентация](https://docs.google.com/presentation/d/1fyfiX0TatQrg1qgkwkfLo1vwZoop08LU/edit?usp=sharing&ouid=109951302156366344166&rtpof=true&sd=true)
+Видеопрезентация - скоро
+
+[Презентация](https://drive.google.com/drive/folders/1rKxhelWcf4DMQVmL2ltCF_b2pvJMphzS?usp=drive_link)
 
 [Аналитика](https://drive.google.com/drive/folders/1GlggmEH_au1z_ibJWnjOS4-Y4tFX4lFj)
 

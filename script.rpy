@@ -15,6 +15,7 @@ define audio.memories = "audio/memories.mp3"
 define audio.atraction = "audio/atrpark.mp3"
 define audio.restaurant = "audio/citycafe.mp3"
 define audio.kino = "audio/kino.mp3"
+define audio.badend = "audio/badend.mp3"
 
 define v = 0
 define flag = False
@@ -32,7 +33,7 @@ label start:
     
     scene masterskaya with dissolve
 
-    show chernova_short:
+    show chernova:
         xalign 0.3
         yalign 1.1
     with easeinleft
@@ -41,12 +42,12 @@ label start:
     main_character "Пожалуйста, не говори, что снова от той женщины..."
     Anastasia "К твоему счастью, имени я не знаю, клиент решил остаться анонимным."
 
-    show chernova_short:
-        xalign 0.6
+    show chernova:
+        xalign 0.55
         yalign 1.1
     with ease
 
-    show kornilov_short:
+    show kornilov:
         xalign 0.3
         yalign 1.1
     with easeinleft
@@ -94,10 +95,14 @@ label start:
     main_character "НЕТ! Я не дам этому случиться вновь! Я всё исправлю!"
 
     Alexey "[main_name]! [main_name]! Ты слышишь меня?!"
-    show kornilov at center with dissolve
+    show kornilov_seriously at center with dissolve
     Alexey "Я наконец-то нашёл тебя! Немедленно возвращайся!"   
     main_character "Нет, я не могу, я должен помочь ему исполнить мечту!"
+    hide kornilov_seriously
+    show kornilov_scream at center
     Alexey "ТЫ С УМА СОШЁЛ?! Нам нельзя вмешиваться в чужие жизни! Ты понимаешь, что можешь натворить?!"
+    hide kornilov_scream
+    show kornilov_angry at center
 
     menu:
         "Остаться":
@@ -109,6 +114,8 @@ label start:
 
 label stay:        
     main_character "ЭТО НЕ ВАЖНО! Я остаюсь!"
+    hide kornilov_angry
+    show kornilov_scream at center
     Alexey "ТАК НЕЛЬЗЯ, ТЫ...{nw}"
     stop music
 
@@ -231,7 +238,11 @@ label cinema:
     play sound kino fadein 0.5
     scene out_cinema with fade
     pause(1)
-    scene in_cinema with dissolve
+    scene cinema_1 with dissolve
+    pause(1)
+    scene cinema_0 with dissolve
+    pause(1)
+    scene cinema_2 with dissolve
     pause(1)
     scene out_cinema with dissolve
     stop sound fadeout 0.5
@@ -250,12 +261,12 @@ label bad_end:
     scene masterskaya
     pause(0.1)
 
-    show chernova_short:
+    show chernova:
         xalign 0.6
         yalign 1.1
     with easeinleft
 
-    show kornilov_short:
+    show kornilov:
         xalign 0.3
         yalign 1.1
     with easeinleft
@@ -264,7 +275,7 @@ label bad_end:
     Alexey "Хорошо, что ты одумался и не стал рисковать!"
     main_character "Но правильно ли я поступил? Я сделал только хуже..."
 
-    play music depressive_part fadein 0.5
+    play music badend fadein 1
     scene forest with dissolve
     $ renpy.notify("Вы открыли плохую концовку...")
     Autor "В конце концов, [main_name] не смог справиться с чувством вины и стал потреблять много спиртного, что полностью разрушило его жизнь. Он, Анастасия и Алексей не добились успеха со свой фотомастерской, их бизнес рухнул и они перестали общаться."
@@ -301,8 +312,6 @@ label univercity:
     Student_1 "Конечно, пройдёмте за мной!"
     hide student_1_normal with easeoutleft
 
-    scene urfu_parket with dissolve
-    Autor "Герои поднялись на второй этаж."
     main_character "С каждой минутой мне всё больше нравиться это место. Эх, как жаль, что я не мог тут учиться."
 
     scene urfu_tables with dissolve    
@@ -311,7 +320,7 @@ label univercity:
     show student_2_normal at right with easeinright
 
     menu:
-        Student_2 "Привет, меня зовут Алина. В нашем университете можно обучиться на frontend-, backend-разработчика и специалиста по кибербезопасности. О какой из этих профессий вам рассказать?"
+        Student_2 "Привет, меня зовут Алина. В нашем университете можно обучиться на frontend-, backend-разработчика и специалиста по кибербезопасности. О какой из этих профессий тебе рассказать?"
         "О Frontend-разработке":
             jump frontend
         "О Backend-разработке":
@@ -497,19 +506,33 @@ label end:
     scene masterskaya
     pause(0.1)
 
-    show chernova_short:
+    show chernova:
         xalign 0.6
         yalign 1.1
     with easeinleft
 
-    show kornilov_short:
+    show kornilov:
         xalign 0.3
         yalign 1.1
     with easeinleft
 
     Anastasia "[main_name] ты вернулся, живой и невредимый! Мы так рады тебя видеть!"
+
+    hide kornilov
+    show kornilov_angry_short:
+        xalign 0.3
+        yalign 1.1
+
     Alexey "Но это не отменяет того факта, что мы всё ещё злы на тебя, так как ты нарушил наши правила и мог натворить много дел!"
-    main_character "Да, я тоже рад вас видеть! Извините меня за этот поступок, я понимаю, что это было опасно, но зато я подарил тому парню лучшую жизнь, которой у меня никогда не было и уже не будет..."
+
+    hide chernova
+    show chernova_seriously:
+        xalign 0.6
+        yalign 1.1
+
+    Anastasia "Да, это был безответственный и необдуманный поступок, который мог всех нас погубить!"
+
+    main_character "Я тоже рад вас видеть! Извините меня, я понимаю, что это было опасно, но зато я подарил тому парню лучшую жизнь, которой у меня никогда не было и уже не будет..."
 
     stop music fadeout 1
     play music end fadein 0.5
