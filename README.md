@@ -1,7 +1,7 @@
 # Визуальная новелла "Код спасения"
 # Команда "Стражи Бекэнда"
 
-[Финальная версия](https://drive.google.com/drive/folders/1RZ9nZnqpiUGMc3PtMx7d6bmnPWXGyv4W?usp=sharing)
+[Финальная версия](https://drive.google.com/drive/folders/1JNGV9EgMkSEoBI4joK9WhpqML1qh-_-P?usp=sharing)
 
 __Визуальная новелла__
 
@@ -15,24 +15,24 @@ _Анастасия_ - начальница фотомастерской.
 
 [Доска на GitHub](https://github.com/users/sam7ra1/projects/4/views/1)
 
-Видеопрезентация - скоро
+[Видеопрезентация](https://drive.google.com/drive/folders/10LdeOZ3dQ4T_ixoNTJfNACqEQItVsmOu?usp=sharing)
 
-[Презентация](https://drive.google.com/drive/folders/1rKxhelWcf4DMQVmL2ltCF_b2pvJMphzS?usp=drive_link)
+[Презентация](https://drive.google.com/drive/folders/1XaCSca9aIjJJ2Cn7_n_HqsTNHCOkOUos?usp=sharing)
 
-[Аналитика](https://drive.google.com/drive/folders/1GlggmEH_au1z_ibJWnjOS4-Y4tFX4lFj)
+[Аналитика](https://drive.google.com/drive/folders/1Y9NApAJ4zFXNCyGxu4F4ny03XhhesL4N?usp=sharing)
 
-[Сценарий](https://docs.google.com/document/d/1POFdYKX7C_W7F4vT5KBjweXhjSZ3a5zT_Jg5CbnN9a8/edit#heading=h.vdmxqhiurjos)
+[Сценарий](https://drive.google.com/drive/folders/1H9QGdSgIqMO3ss4E4jYu1DICSGgxfIFS?usp=sharing)
 
-[Дизайн](https://drive.google.com/drive/folders/1CayWMznZuQrhZRW0t0SgxrIUbYFDFbgq?usp=sharing)
+[Дизайн](https://drive.google.com/drive/folders/1hxmdBs0s-EjT2VwvdsC93woh54aRtzWR?usp=sharing)
 
 __Над проектом работали__:
 
-__1.__ Муравьев Илья Германович РИ-130910
+__1.__ Муравьев Илья Германович РИ-130910 - Разработчик
 
-__2.__ Гилев Андрей Александрович РИ-130948
+__2.__ Гилев Андрей Александрович РИ-130948 - Тимлид
 
-__3.__ Сорокина Софья Михайловна РИ-131002
+__3.__ Сорокина Софья Михайловна РИ-131002 - Аналитик
 
-__4.__ Долгих Дмитрий Александрович РИ-130910
+__4.__ Долгих Дмитрий Александрович РИ-130910 - Геймдтзайнер
 
-__5.__ Русакова Анна Алексеевна РИ-130947
+__5.__ Русакова Анна Алексеевна РИ-130947 - Дизайнер
