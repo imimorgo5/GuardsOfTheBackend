@@ -1,5 +1,5 @@
+# Команда "Стражи Бекэнда" <img src="https://github.com/imimorgo5/Files/blob/main/pepega_2.gif" height="70" />
 # Визуальная новелла "Код спасения"
-# Команда "Стражи Бекэнда"
 
 [Финальная версия](https://drive.google.com/drive/folders/1JNGV9EgMkSEoBI4joK9WhpqML1qh-_-P?usp=sharing)
 
